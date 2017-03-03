@@ -33,7 +33,7 @@ export class HomePage {
    */
   ionViewDidLoad() {
     // we will use anonymous auth for this example
-    firebase.auth().signInWithEmailAndPassword('newuser@mail.com', 'password')
+    firebase.auth().signInWithEmailAndPassword('tsuisauchi.tsc@gmail.com', 's9816142b')
       .then((_auth) => {
         // when authenticated... alert the user
         console.log('login success');
